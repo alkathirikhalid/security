@@ -1,7 +1,7 @@
 [![](https://jitpack.io/v/alkathirikhalid/security.svg)](https://jitpack.io/#alkathirikhalid/security)
 
 # security
-<h1>A utility for secure one-way and two-way encryption.</h1>
+A utility for secure one-way and two-way encryption.
 <h2>AES (encrypt / decrypt)</h2>
 <p>Advanced Encryption Standard utility. Provides a way to Encrypt and Decrypt texts. It is important to note this utility class is only applicable for UTF input types and more secure ways might be required for different applications.</p>
 <p>Quick Usage:<br/><code>AES.encrypt(plainText, encryptionKey, IV);</code><br/><code>AES.decrypt(cipherText, encryptionKey, IV);</code></p>
@@ -9,6 +9,7 @@
 <h2>SaltAndHash</h2>
 <p>Provides a way to get salt and hash passwords. It is important to note this utility class is configurable based on the standard hashing algorithms provided by the Java MessageDigest for SHA-1, SHA-256, SHA-384, SHA-512.</p>
 <p>Quick Usage:<br/><code>SaltAndHash.getSalt();</code><br/><code>SaltAndHash.hashPassword(password, salt)</code> // Default "SHA-512"<br/><code>SaltAndHash.hashPassword(password, salt, messageDisgest)</code> // Pass a hashing algorithms that is required</p>
+
 # Installation
 ### Gradle
 ```
